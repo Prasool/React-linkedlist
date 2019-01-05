@@ -19,7 +19,7 @@ const DisplayNodes = (props)=>{
         LinkedListNodes.push(
           
           <div key={Math.random()} className="display-flex"> 
-              <div className="arrow">{"<-------"}</div>
+              <div className="arrow">{"------->"}</div>
               <div className="board-row link-list">
                 <PrintTheNode element={linkedlists.value}/>  
               </div>
